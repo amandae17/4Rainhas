@@ -56,7 +56,6 @@ public class tabuleiro extends javax.swing.JFrame {
         button4.setLabel("A1");
         getContentPane().add(button4);
         button4.setBounds(90, 30, 50, 50);
-        button4.getAccessibleContext().setAccessibleName("A1");
 
         button5.setBackground(new java.awt.Color(0, 0, 0));
         button5.setLabel("A2");
