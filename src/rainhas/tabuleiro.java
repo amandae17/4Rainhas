@@ -43,6 +43,7 @@ public class tabuleiro extends javax.swing.JFrame {
         button24 = new java.awt.Button();
         button25 = new java.awt.Button();
         button26 = new java.awt.Button();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -56,7 +57,6 @@ public class tabuleiro extends javax.swing.JFrame {
         button4.setLabel("A1");
         getContentPane().add(button4);
         button4.setBounds(90, 30, 50, 50);
-        button4.getAccessibleContext().setAccessibleName("A1");
 
         button5.setBackground(new java.awt.Color(0, 0, 0));
         button5.setLabel("A2");
@@ -122,6 +122,11 @@ public class tabuleiro extends javax.swing.JFrame {
         getContentPane().add(button26);
         button26.setBounds(190, 180, 50, 50);
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/rainha.png"))); // NOI18N
+        jLabel1.setPreferredSize(new java.awt.Dimension(50, 50));
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(320, 100, 50, 50);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -178,5 +183,6 @@ public class tabuleiro extends javax.swing.JFrame {
     private java.awt.Button button8;
     private java.awt.Button button9;
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
