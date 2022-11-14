@@ -27,36 +27,146 @@ public class tabuleiro extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
+        jPanel8 = new javax.swing.JPanel();
+        jPanel9 = new javax.swing.JPanel();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
+        jPanel14 = new javax.swing.JPanel();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jPanel16 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jLabel6.setText("jLabel1");
+        jLabel6.getAccessibleContext().setAccessibleName("Queen4");
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/tabuleiro.png"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(40, 340, 90, 100);
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        jLabel3.setText("jLabel1");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(60, 10, 90, 100);
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel7MouseClicked(evt);
+            }
+        });
+        jPanel1.add(jLabel7);
+        jLabel7.getAccessibleContext().setAccessibleName("Q1");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        jLabel4.setText("jLabel1");
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(50, 120, 90, 100);
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(60, 10, 100, 100);
+        jPanel1.getAccessibleContext().setAccessibleName("JL1");
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(160, 10, 100, 100);
+
+        jPanel5.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel5);
+        jPanel5.setBounds(260, 10, 90, 100);
+
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        jLabel5.setText("jLabel1");
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(40, 230, 90, 100);
+        jPanel3.add(jLabel5);
+        jLabel5.getAccessibleContext().setAccessibleName("Q2");
+        jLabel5.getAccessibleContext().setAccessibleDescription("");
+
+        getContentPane().add(jPanel3);
+        jPanel3.setBounds(350, 10, 90, 100);
+        jPanel3.getAccessibleContext().setAccessibleName("JL2");
+
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jPanel4);
+        jPanel4.setBounds(60, 110, 100, 100);
+
+        jPanel6.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel6);
+        jPanel6.setBounds(160, 110, 100, 100);
+
+        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jPanel7);
+        jPanel7.setBounds(260, 110, 90, 100);
+
+        jPanel8.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel8);
+        jPanel8.setBounds(350, 110, 90, 100);
+
+        jPanel9.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel9);
+        jPanel9.setBounds(60, 210, 100, 110);
+
+        jPanel10.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jPanel10.add(jLabel9);
+        jLabel9.getAccessibleContext().setAccessibleName("Q3");
+        jLabel9.getAccessibleContext().setAccessibleDescription("");
+
+        getContentPane().add(jPanel10);
+        jPanel10.setBounds(60, 320, 100, 100);
+        jPanel10.getAccessibleContext().setAccessibleName("JL3");
+
+        jPanel11.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel11);
+        jPanel11.setBounds(160, 320, 100, 110);
+
+        jPanel12.setBackground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jPanel12);
+        jPanel12.setBounds(160, 210, 100, 110);
+
+        jPanel13.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel13);
+        jPanel13.setBounds(260, 210, 90, 110);
+
+        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jPanel14);
+        jPanel14.setBounds(260, 320, 90, 110);
+
+        jPanel15.setBackground(new java.awt.Color(0, 0, 0));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jPanel15.add(jLabel8);
+        jLabel8.getAccessibleContext().setAccessibleName("Q4");
+        jLabel8.getAccessibleContext().setAccessibleDescription("");
+
+        getContentPane().add(jPanel15);
+        jPanel15.setBounds(350, 320, 90, 110);
+        jPanel15.getAccessibleContext().setAccessibleName("JL4");
+
+        jPanel16.setBackground(new java.awt.Color(255, 255, 255));
+        getContentPane().add(jPanel16);
+        jPanel16.setBounds(350, 210, 90, 110);
+
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(500, 100, 100, 30);
+        jLabel1.getAccessibleContext().setAccessibleName("JL1");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel7MouseClicked
 
     /**
      * @param args the command line arguments
@@ -96,8 +206,27 @@ public class tabuleiro extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
 }

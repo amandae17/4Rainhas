@@ -9,7 +9,7 @@ package rainhas;
  * @author aevan
  */
 public class VetorD {
-     private Object[] object = new Object[1];
+    private Object[] object = new Object[1];
     private int total = 0;
     private StringBuilder builder;
     
