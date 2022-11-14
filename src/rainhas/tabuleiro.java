@@ -4,6 +4,8 @@
  */
 package rainhas;
 
+import java.awt.Color;
+
 /**
  *
  * @author aevan
@@ -87,6 +89,11 @@ public class tabuleiro extends javax.swing.JFrame {
 
         button19.setBackground(new java.awt.Color(0, 0, 0));
         button19.setLabel("A4");
+        button19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button19ActionPerformed(evt);
+            }
+        });
         getContentPane().add(button19);
         button19.setBounds(240, 130, 50, 50);
 
@@ -122,13 +129,18 @@ public class tabuleiro extends javax.swing.JFrame {
         getContentPane().add(button26);
         button26.setBounds(190, 180, 50, 50);
 
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/rainha.png"))); // NOI18N
-        jLabel1.setPreferredSize(new java.awt.Dimension(50, 50));
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(320, 100, 50, 50);
+        jLabel1.setBounds(330, 70, 50, 50);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void button19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button19ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_button19ActionPerformed
 
     /**
      * @param args the command line arguments
