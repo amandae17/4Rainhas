@@ -27,99 +27,33 @@ public class tabuleiro extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
-        button3 = new java.awt.Button();
-        button4 = new java.awt.Button();
-        button5 = new java.awt.Button();
-        button6 = new java.awt.Button();
-        button7 = new java.awt.Button();
-        button8 = new java.awt.Button();
-        button9 = new java.awt.Button();
-        button10 = new java.awt.Button();
-        button19 = new java.awt.Button();
-        button20 = new java.awt.Button();
-        button21 = new java.awt.Button();
-        button22 = new java.awt.Button();
-        button23 = new java.awt.Button();
-        button24 = new java.awt.Button();
-        button25 = new java.awt.Button();
-        button26 = new java.awt.Button();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        button3.setBackground(new java.awt.Color(0, 0, 0));
-        button3.setLabel("A4");
-        getContentPane().add(button3);
-        button3.setBounds(240, 30, 50, 50);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(40, 340, 90, 100);
 
-        button4.setActionCommand("A1");
-        button4.setLabel("A1");
-        getContentPane().add(button4);
-        button4.setBounds(90, 30, 50, 50);
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jLabel3.setText("jLabel1");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(60, 10, 90, 100);
 
-        button5.setBackground(new java.awt.Color(0, 0, 0));
-        button5.setLabel("A2");
-        getContentPane().add(button5);
-        button5.setBounds(140, 30, 50, 50);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jLabel4.setText("jLabel1");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(50, 120, 90, 100);
 
-        button6.setLabel("A3");
-        getContentPane().add(button6);
-        button6.setBounds(190, 30, 50, 50);
-
-        button7.setLabel("B4");
-        getContentPane().add(button7);
-        button7.setBounds(240, 80, 50, 50);
-
-        button8.setBackground(new java.awt.Color(0, 0, 0));
-        button8.setLabel("B1");
-        getContentPane().add(button8);
-        button8.setBounds(90, 80, 50, 50);
-
-        button9.setLabel("B2");
-        getContentPane().add(button9);
-        button9.setBounds(140, 80, 50, 50);
-
-        button10.setBackground(new java.awt.Color(0, 0, 0));
-        button10.setLabel("button1");
-        getContentPane().add(button10);
-        button10.setBounds(190, 80, 50, 50);
-
-        button19.setBackground(new java.awt.Color(0, 0, 0));
-        button19.setLabel("A4");
-        getContentPane().add(button19);
-        button19.setBounds(240, 130, 50, 50);
-
-        button20.setActionCommand("A1");
-        button20.setLabel("C1");
-        getContentPane().add(button20);
-        button20.setBounds(90, 130, 50, 50);
-
-        button21.setBackground(new java.awt.Color(0, 0, 0));
-        button21.setLabel("A2");
-        getContentPane().add(button21);
-        button21.setBounds(140, 130, 50, 50);
-
-        button22.setLabel("C3");
-        getContentPane().add(button22);
-        button22.setBounds(190, 130, 50, 50);
-
-        button23.setLabel("D4");
-        getContentPane().add(button23);
-        button23.setBounds(240, 180, 50, 50);
-
-        button24.setBackground(new java.awt.Color(0, 0, 0));
-        button24.setLabel("B1");
-        getContentPane().add(button24);
-        button24.setBounds(90, 180, 50, 50);
-
-        button25.setLabel("D2");
-        getContentPane().add(button25);
-        button25.setBounds(140, 180, 50, 50);
-
-        button26.setBackground(new java.awt.Color(0, 0, 0));
-        button26.setLabel("button1");
-        getContentPane().add(button26);
-        button26.setBounds(190, 180, 50, 50);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        jLabel5.setText("jLabel1");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(40, 230, 90, 100);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -160,22 +94,10 @@ public class tabuleiro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private java.awt.Button button10;
-    private java.awt.Button button19;
-    private java.awt.Button button20;
-    private java.awt.Button button21;
-    private java.awt.Button button22;
-    private java.awt.Button button23;
-    private java.awt.Button button24;
-    private java.awt.Button button25;
-    private java.awt.Button button26;
-    private java.awt.Button button3;
-    private java.awt.Button button4;
-    private java.awt.Button button5;
-    private java.awt.Button button6;
-    private java.awt.Button button7;
-    private java.awt.Button button8;
-    private java.awt.Button button9;
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     // End of variables declaration//GEN-END:variables
 }
