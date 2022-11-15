@@ -10,13 +10,11 @@ public class Rainhas {
     
     public static void main(String[] args) {
         VetorD lista = new VetorD();
+        tabuleiro board = new tabuleiro();
         
-        lista.adiciona(0.0);
-        lista.adiciona(0.3);
-        lista.adiciona(3.0);
-        lista.adiciona(3.3);
         
-        System.out.println(lista);
+        
+        board.setVisible(true);
     }
 }
 
