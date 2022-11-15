@@ -12,7 +12,7 @@ public class Rainhas {
         VetorD lista = new VetorD();
         tabuleiro board = new tabuleiro();
         
-        
+        //System.out.println(board.getValueof(Q1Position));
         
         board.setVisible(true);
     }

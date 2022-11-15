@@ -29,18 +29,36 @@ public class tabuleiro extends javax.swing.JFrame {
         buttonGroup1 = new javax.swing.ButtonGroup();
         jLabel6 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
         jL3 = new javax.swing.JLabel();
-        Q1 = new javax.swing.JLabel();
-        Q2 = new javax.swing.JLabel();
         Q3 = new javax.swing.JLabel();
         Q4 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        Q2 = new javax.swing.JLabel();
+        Q1 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel4 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
+        jPanel8 = new javax.swing.JPanel();
+        jPanel9 = new javax.swing.JPanel();
+        jPanel10 = new javax.swing.JPanel();
+        jPanel11 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        jPanel13 = new javax.swing.JPanel();
+        jPanel14 = new javax.swing.JPanel();
+        jPanel15 = new javax.swing.JPanel();
+        jPanel16 = new javax.swing.JPanel();
+        jPanel17 = new javax.swing.JPanel();
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
         jLabel6.setText("jLabel1");
         jLabel6.getAccessibleContext().setAccessibleName("Queen4");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/tabuleiro.png"))); // NOI18N
+
+        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("4 Rainhas");
@@ -55,27 +73,27 @@ public class tabuleiro extends javax.swing.JFrame {
         jL3.setBounds(20, 60, 60, 30);
         jL3.getAccessibleContext().setAccessibleName("jL3");
 
-        Q1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        Q1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        Q1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+        Q3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        Q3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
-                Q1MouseDragged(evt);
+                Q3MouseDragged(evt);
             }
         });
-        Q1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Q1MouseClicked(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                Q1MousePressed(evt);
-            }
-            public void mouseReleased(java.awt.event.MouseEvent evt) {
-                Q1MouseReleased(evt);
+        getContentPane().add(Q3);
+        Q3.setBounds(20, 270, 90, 90);
+        Q3.getAccessibleContext().setAccessibleName("Q3");
+        Q3.getAccessibleContext().setAccessibleDescription("");
+
+        Q4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        Q4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                Q4MouseDragged(evt);
             }
         });
-        getContentPane().add(Q1);
-        Q1.setBounds(150, 40, 90, 100);
-        Q1.getAccessibleContext().setAccessibleName("Q1");
+        getContentPane().add(Q4);
+        Q4.setBounds(20, 360, 90, 90);
+        Q4.getAccessibleContext().setAccessibleName("Q4");
+        Q4.getAccessibleContext().setAccessibleDescription("");
 
         Q2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
         Q2.setName(""); // NOI18N
@@ -85,58 +103,98 @@ public class tabuleiro extends javax.swing.JFrame {
             }
         });
         getContentPane().add(Q2);
-        Q2.setBounds(430, 40, 90, 100);
-        Q2.getAccessibleContext().setAccessibleName("Q2");
-        Q2.getAccessibleContext().setAccessibleDescription("");
-        Q2.getAccessibleContext().setAccessibleParent(jLabel1);
+        Q2.setBounds(20, 80, 90, 90);
 
-        Q3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        Q3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+        Q1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        Q1.setName(""); // NOI18N
+        Q1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
-                Q3MouseDragged(evt);
+                Q1MouseDragged(evt);
             }
         });
-        getContentPane().add(Q3);
-        Q3.setBounds(150, 320, 90, 100);
-        Q3.getAccessibleContext().setAccessibleName("Q3");
-        Q3.getAccessibleContext().setAccessibleDescription("");
-        Q3.getAccessibleContext().setAccessibleParent(jLabel1);
+        getContentPane().add(Q1);
+        Q1.setBounds(20, 170, 90, 100);
+        Q1.getAccessibleContext().setAccessibleName("Q2");
+        Q1.getAccessibleContext().setAccessibleDescription("");
 
-        Q4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        Q4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseDragged(java.awt.event.MouseEvent evt) {
-                Q4MouseDragged(evt);
+        jPanel1.setBackground(new java.awt.Color(0, 102, 51));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(420, 120, 90, 100);
+
+        jPanel2.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(240, 20, 90, 100);
+
+        jPanel3.setBackground(new java.awt.Color(0, 102, 51));
+        getContentPane().add(jPanel3);
+        jPanel3.setBounds(330, 20, 90, 100);
+
+        jPanel4.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel4);
+        jPanel4.setBounds(420, 20, 90, 100);
+
+        jPanel6.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel6);
+        jPanel6.setBounds(150, 120, 90, 100);
+
+        jPanel7.setBackground(new java.awt.Color(0, 102, 51));
+        getContentPane().add(jPanel7);
+        jPanel7.setBounds(240, 120, 90, 100);
+
+        jPanel8.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel8);
+        jPanel8.setBounds(330, 120, 90, 100);
+
+        jPanel9.setBackground(new java.awt.Color(0, 102, 51));
+        jPanel9.addContainerListener(new java.awt.event.ContainerAdapter() {
+            public void componentAdded(java.awt.event.ContainerEvent evt) {
+                jPanel9ComponentAdded(evt);
             }
         });
-        getContentPane().add(Q4);
-        Q4.setBounds(430, 320, 90, 100);
-        Q4.getAccessibleContext().setAccessibleName("Q4");
-        Q4.getAccessibleContext().setAccessibleDescription("");
-        Q4.getAccessibleContext().setAccessibleParent(jLabel1);
+        getContentPane().add(jPanel9);
+        jPanel9.setBounds(150, 20, 90, 100);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/tabuleiro.png"))); // NOI18N
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(150, 50, 370, 370);
+        jPanel10.setBackground(new java.awt.Color(0, 102, 51));
+        getContentPane().add(jPanel10);
+        jPanel10.setBounds(420, 320, 90, 100);
+
+        jPanel11.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel11);
+        jPanel11.setBounds(240, 220, 90, 100);
+
+        jPanel12.setBackground(new java.awt.Color(0, 102, 51));
+        getContentPane().add(jPanel12);
+        jPanel12.setBounds(330, 220, 90, 100);
+
+        jPanel13.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel13);
+        jPanel13.setBounds(420, 220, 90, 100);
+
+        jPanel14.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel14);
+        jPanel14.setBounds(150, 320, 90, 100);
+
+        jPanel15.setBackground(new java.awt.Color(0, 102, 51));
+        getContentPane().add(jPanel15);
+        jPanel15.setBounds(240, 320, 90, 100);
+
+        jPanel16.setBackground(new java.awt.Color(204, 204, 0));
+        getContentPane().add(jPanel16);
+        jPanel16.setBounds(330, 320, 90, 100);
+
+        jPanel17.setBackground(new java.awt.Color(0, 102, 51));
+        getContentPane().add(jPanel17);
+        jPanel17.setBounds(150, 220, 90, 100);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void Q1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Q1MouseClicked
-        
-    }//GEN-LAST:event_Q1MouseClicked
-
+    public void Q1Position(){
+        Q1.setLocation(getX(),getY());
+    }
     private void Q1MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Q1MouseDragged
         Q1.setLocation(Q1.getLocation().x+evt.getX()-Q1.getWidth()/2, Q1.getLocation().y+evt.getY()-Q1.getHeight()/2);
     }//GEN-LAST:event_Q1MouseDragged
- 
-    private void Q1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Q1MousePressed
-        
-    }//GEN-LAST:event_Q1MousePressed
-
-    private void Q2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Q2MouseDragged
-        Q2.setLocation(Q2.getLocation().x+evt.getX()-Q2.getWidth()/2, Q2.getLocation().y+evt.getY()-Q2.getHeight()/2);
-    }//GEN-LAST:event_Q2MouseDragged
 
     private void Q3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Q3MouseDragged
         Q3.setLocation(Q3.getLocation().x+evt.getX()-Q3.getWidth()/2, Q3.getLocation().y+evt.getY()-Q3.getHeight()/2);
@@ -146,9 +204,13 @@ public class tabuleiro extends javax.swing.JFrame {
         Q4.setLocation(Q4.getLocation().x+evt.getX()-Q4.getWidth()/2, Q4.getLocation().y+evt.getY()-Q4.getHeight()/2);
     }//GEN-LAST:event_Q4MouseDragged
 
-    private void Q1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Q1MouseReleased
-        Q1.setLocation(Q1.getX(), Q1.getY());
-    }//GEN-LAST:event_Q1MouseReleased
+    private void Q2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Q2MouseDragged
+        Q2.setLocation(Q2.getLocation().x+evt.getX()-Q2.getWidth()/2, Q2.getLocation().y+evt.getY()-Q2.getHeight()/2);
+    }//GEN-LAST:event_Q2MouseDragged
+
+    private void jPanel9ComponentAdded(java.awt.event.ContainerEvent evt) {//GEN-FIRST:event_jPanel9ComponentAdded
+        jPanel9.getLocation();
+    }//GEN-LAST:event_jPanel9ComponentAdded
 
     /**
      * @param args the command line arguments
@@ -192,8 +254,24 @@ public class tabuleiro extends javax.swing.JFrame {
     private javax.swing.JLabel Q4;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel jL3;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
 }
