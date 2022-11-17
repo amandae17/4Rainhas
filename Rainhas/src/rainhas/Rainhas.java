@@ -12,13 +12,13 @@ public class Rainhas {
         VetorD lista = new VetorD();
         tabuleiro board = new tabuleiro();
         
-        //System.out.println(board.getValueof(Q1Position));
+        System.out.println(board.getLocation());
         
         board.setVisible(true);
     }
 }
 
 /* 
-    Tabuleiro vai de JL1---JL2, embaixo JL3---JL4
+    Tabuleiro vai de JP1---JP2, embaixo JP3---JP4
      JLabel Q1, Q2, Q3, Q4 tem que ficar dentro das dimensões de JL1, JL2, JL3 e JL4
 */
