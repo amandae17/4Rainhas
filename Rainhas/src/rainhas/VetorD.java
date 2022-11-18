@@ -80,7 +80,7 @@ public class VetorD {
         this.builder.append("]");
         return builder.toString();
     }
-    private boolean vazia(){
+    public boolean vazia(){
         return this.total > 0 ? false : true;
     }
     
