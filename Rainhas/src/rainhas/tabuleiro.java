@@ -34,7 +34,6 @@ public class tabuleiro extends javax.swing.JFrame {
         jButton17 = new javax.swing.JButton();
         Q2 = new javax.swing.JLabel();
         jButton19 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
         jButton20 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
         jButton22 = new javax.swing.JButton();
@@ -48,8 +47,9 @@ public class tabuleiro extends javax.swing.JFrame {
         jButton30 = new javax.swing.JButton();
         jButton31 = new javax.swing.JButton();
         jButton32 = new javax.swing.JButton();
-        Q1 = new javax.swing.JLabel();
         Q6 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        Q1 = new javax.swing.JLabel();
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
         jLabel6.setText("jLabel1");
@@ -109,20 +109,6 @@ public class tabuleiro extends javax.swing.JFrame {
         });
         getContentPane().add(jButton19);
         jButton19.setBounds(440, 10, 100, 100);
-
-        jButton18.setBackground(new java.awt.Color(102, 102, 0));
-        jButton18.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton18MouseClicked(evt);
-            }
-        });
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton18);
-        jButton18.setBounds(140, 10, 100, 100);
 
         jButton20.setBackground(new java.awt.Color(102, 102, 0));
         jButton20.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -306,16 +292,6 @@ public class tabuleiro extends javax.swing.JFrame {
         getContentPane().add(jButton32);
         jButton32.setBounds(240, 310, 100, 100);
 
-        Q1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
-        Q1.setName(""); // NOI18N
-        Q1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseDragged(java.awt.event.MouseEvent evt) {
-                Q1MouseDragged(evt);
-            }
-        });
-        getContentPane().add(Q1);
-        Q1.setBounds(140, 10, 100, 100);
-
         Q6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
         Q6.setName(""); // NOI18N
         Q6.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -325,6 +301,25 @@ public class tabuleiro extends javax.swing.JFrame {
         });
         getContentPane().add(Q6);
         Q6.setBounds(10, 120, 100, 100);
+
+        jButton1.setText("jButton1");
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
+        getContentPane().add(jButton1);
+        jButton1.setBounds(140, 10, 100, 100);
+
+        Q1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png"))); // NOI18N
+        Q1.setName(""); // NOI18N
+        Q1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                Q1MouseDragged(evt);
+            }
+        });
+        getContentPane().add(Q1);
+        Q1.setBounds(140, 10, 100, 100);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -341,14 +336,6 @@ public class tabuleiro extends javax.swing.JFrame {
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton17ActionPerformed
-
-    private void jButton18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton18MouseClicked
-        Q1.show();
-    }//GEN-LAST:event_jButton18MouseClicked
-
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton19MouseClicked
         // TODO add your handling code here:
@@ -470,6 +457,10 @@ public class tabuleiro extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_Q6MouseDragged
 
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+        
+    }//GEN-LAST:event_jButton1MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -510,8 +501,8 @@ public class tabuleiro extends javax.swing.JFrame {
     private javax.swing.JLabel Q2;
     private javax.swing.JLabel Q6;
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
