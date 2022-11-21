@@ -12,7 +12,7 @@ import javax.swing.JButton;
  *
  * @author Icaro
  */
-public class Teste extends javax.swing.JFrame {
+public class Tabuleiro_Rainhas extends javax.swing.JFrame {
 
     public VetorD tabuleiro = new VetorD();
     public Fila fila = new Fila();
@@ -108,7 +108,7 @@ public class Teste extends javax.swing.JFrame {
     /**
      * Creates new form Teste
      */
-    public Teste() {
+    public Tabuleiro_Rainhas() {
         initComponents();
 
         VetorD linha0 = new VetorD();
@@ -144,7 +144,7 @@ public class Teste extends javax.swing.JFrame {
         jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png")));
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png")));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/rainhas/images/rainha.png")));
-        
+
         this.escreverNaInterface();
 
     }
@@ -445,20 +445,21 @@ public class Teste extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Teste.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tabuleiro_Rainhas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Teste.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tabuleiro_Rainhas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Teste.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tabuleiro_Rainhas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Teste.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tabuleiro_Rainhas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Teste().setVisible(true);
+                new Tabuleiro_Rainhas().setVisible(true);
             }
         });
     }
