@@ -98,10 +98,10 @@ public class Tabuleiro_Rainhas extends javax.swing.JFrame {
     public void escreverNaInterface() {
         if (testarTabuleiro()) {
             jLabel1.setForeground(Color.red);
-            jLabel1.setText("Uma rainha esta em cheque!");
+            jLabel1.setText("Alguma rainha esta em xeque!");
         } else {
             jLabel1.setForeground(Color.black);
-            jLabel1.setText("Nenhuma rainha esta em cheque!");
+            jLabel1.setText("Nenhuma rainha esta em xeque!");
         }
     }
 
