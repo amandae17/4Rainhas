@@ -18,8 +18,7 @@ public class Tabuleiro_Rainhas extends javax.swing.JFrame {
     public Fila fila = new Fila();
 
     public void trocarIcones(JButton button) {
-        VetorD listaFila = (VetorD) this.fila.mostra();
-        if (listaFila.tamanho() < 1) {
+        if (fila.fEmpty()) {
             this.fila.Insere(button);
         } else {
             this.fila.Insere(button);

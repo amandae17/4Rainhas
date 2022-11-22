@@ -9,26 +9,27 @@ package rainhas;
  * @author aevan
  */
 public class Fila {
+
     VetorD lista = new VetorD();
-    
-    public void Insere(Object objeto){
+
+    public void Insere(Object objeto) {
         lista.adiciona(objeto);
     }
-    
-    public Object remover(){
-        if(!this.fEmpty()){
+
+    public Object remover() {
+        if (!this.fEmpty()) {
             Object objeto = lista.pega(0);
             lista.remove(0);
             return objeto;
         }
-        return null;            
+        return null;
     }
-    
-    public boolean fEmpty(){
+
+    public boolean fEmpty() {
         return lista.vazia();
     }
-    
-    public Object mostra(){
+
+    public Object mostra() {
         return lista;
     }
 }

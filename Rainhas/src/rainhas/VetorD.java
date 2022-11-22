@@ -9,10 +9,11 @@ package rainhas;
  * @author aevan
  */
 public class VetorD {
+
     private Object[] object = new Object[1];
     private int total = 0;
     private StringBuilder builder;
-    
+
     public void adiciona(Object elem) {
         this.liberaEspaco();
         this.object[this.total] = elem;
@@ -63,13 +64,13 @@ public class VetorD {
         }
         total--;
     }
-    
+
     @Override
     public String toString() {
         if (this.total == 0) {
             return "[]";
         }
-        
+
         builder = new StringBuilder();
         this.builder.append("[");
         for (int i = 0; i < this.total - 1; i++) {
@@ -80,18 +81,19 @@ public class VetorD {
         this.builder.append("]");
         return builder.toString();
     }
-    public boolean vazia(){
+
+    public boolean vazia() {
         return this.total > 0 ? false : true;
     }
-    
+
     private void liberaEspaco() {
 
-        if(this.total == this.object.length) {
+        if (this.total == this.object.length) {
 
             Object[] novaArray = new Object[this.object.length * 2];
 
-            for(int i = 0; i <= this.object.length-1; i++) {
-              novaArray[i] = this.object[i];
+            for (int i = 0; i <= this.object.length - 1; i++) {
+                novaArray[i] = this.object[i];
             }
             this.object = novaArray;
         }
