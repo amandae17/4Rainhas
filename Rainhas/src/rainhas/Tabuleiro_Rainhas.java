@@ -102,7 +102,7 @@ public class Tabuleiro_Rainhas extends javax.swing.JFrame {
             jLabel1.setText("Nenhuma rainha esta em xeque!");
         }
     }
-
+ 
     /**
      * Creates new form Teste
      */
