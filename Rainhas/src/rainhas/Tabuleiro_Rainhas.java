@@ -27,7 +27,6 @@ public class Tabuleiro_Rainhas extends javax.swing.JFrame {
             Icon temp = button1.getIcon();
             button1.setIcon(button2.getIcon());
             button2.setIcon(temp);
-
             this.escreverNaInterface();
 
         }
